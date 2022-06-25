@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# ⛓️ 0xMacro Pre-Course ⛓️
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project is part of the [**0xMacro Engineering Fellowship**](https://0xmacro.com/engineering-fellowship) program pre-course.
 
-Try running some of the following tasks:
+## Usage
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+1. Install deps with `npm install`
+2. Copy `.env.example` to `.env` and replace the values with real credentials and keys
+3. Compile the smart contracts: `npx hardhat compile`
+4. Start a local node with `npx hardhat node`
+5. Deploy the smart contracts: `npx hardhat run scripts/deploy-greeter.js --network localhost`
+6. Start the React App with: `npm start`
+7. Go to [localhost:3000](http://localhost:3000);
